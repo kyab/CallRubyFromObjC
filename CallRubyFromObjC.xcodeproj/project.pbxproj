@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB7DF272149D7BB300A752C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7DF271149D7BB300A752C4 /* Cocoa.framework */; };
+		EB7DF274149D7BB300A752C4 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7DF273149D7BB300A752C4 /* MacRuby.framework */; };
+		EB7DF27B149D7BB300A752C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB7DF279149D7BB300A752C4 /* InfoPlist.strings */; };
+		EB7DF27D149D7BB300A752C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7DF27C149D7BB300A752C4 /* main.m */; };
+		EB7DF282149D7BB300A752C4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB7DF280149D7BB300A752C4 /* MainMenu.xib */; };
+		EB7DF285149D7BB300A752C4 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = EB7DF284149D7BB300A752C4 /* rb_main.rb */; };
+		EB7DF287149D7BB300A752C4 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = EB7DF286149D7BB300A752C4 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB7DF26D149D7BB300A752C4 /* CallRubyFromObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallRubyFromObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7DF271149D7BB300A752C4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EB7DF273149D7BB300A752C4 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		EB7DF278149D7BB300A752C4 /* CallRubyFromObjC-Info.plist */ = {isa = PBXFileReference; path = "CallRubyFromObjC-Info.plist"; sourceTree = "<group>"; };
+		EB7DF27A149D7BB300A752C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB7DF27C149D7BB300A752C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB7DF27E149D7BB300A752C4 /* CallRubyFromObjC-Prefix.pch */ = {isa = PBXFileReference; path = "CallRubyFromObjC-Prefix.pch"; sourceTree = "<group>"; };
+		EB7DF281149D7BB300A752C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EB7DF284149D7BB300A752C4 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		EB7DF286149D7BB300A752C4 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB7DF26A149D7BB300A752C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7DF272149D7BB300A752C4 /* Cocoa.framework in Frameworks */,
+				EB7DF274149D7BB300A752C4 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB7DF262149D7BB300A752C4 = {
+			isa = PBXGroup;
+			children = (
+				EB7DF276149D7BB300A752C4 /* CallRubyFromObjC */,
+				EB7DF270149D7BB300A752C4 /* Frameworks */,
+				EB7DF26E149D7BB300A752C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB7DF26E149D7BB300A752C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7DF26D149D7BB300A752C4 /* CallRubyFromObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB7DF270149D7BB300A752C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB7DF271149D7BB300A752C4 /* Cocoa.framework */,
+				EB7DF273149D7BB300A752C4 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB7DF276149D7BB300A752C4 /* CallRubyFromObjC */ = {
+			isa = PBXGroup;
+			children = (
+				EB7DF286149D7BB300A752C4 /* AppDelegate.rb */,
+				EB7DF27F149D7BB300A752C4 /* Resources */,
+				EB7DF283149D7BB300A752C4 /* Other Sources */,
+				EB7DF277149D7BB300A752C4 /* Supporting Files */,
+			);
+			path = CallRubyFromObjC;
+			sourceTree = "<group>";
+		};
+		EB7DF277149D7BB300A752C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB7DF278149D7BB300A752C4 /* CallRubyFromObjC-Info.plist */,
+				EB7DF279149D7BB300A752C4 /* InfoPlist.strings */,
+				EB7DF27C149D7BB300A752C4 /* main.m */,
+				EB7DF27E149D7BB300A752C4 /* CallRubyFromObjC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB7DF27F149D7BB300A752C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB7DF280149D7BB300A752C4 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EB7DF283149D7BB300A752C4 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EB7DF284149D7BB300A752C4 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		EB7DF275149D7BB300A752C4 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = EB7DF28D149D7BB300A752C4 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		EB7DF26C149D7BB300A752C4 /* CallRubyFromObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7DF28A149D7BB300A752C4 /* Build configuration list for PBXNativeTarget "CallRubyFromObjC" */;
+			buildPhases = (
+				EB7DF269149D7BB300A752C4 /* Sources */,
+				EB7DF26A149D7BB300A752C4 /* Frameworks */,
+				EB7DF26B149D7BB300A752C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallRubyFromObjC;
+			productName = CallRubyFromObjC;
+			productReference = EB7DF26D149D7BB300A752C4 /* CallRubyFromObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB7DF264149D7BB300A752C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EB7DF267149D7BB300A752C4 /* Build configuration list for PBXProject "CallRubyFromObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB7DF262149D7BB300A752C4;
+			productRefGroup = EB7DF26E149D7BB300A752C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB7DF26C149D7BB300A752C4 /* CallRubyFromObjC */,
+				EB7DF275149D7BB300A752C4 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB7DF26B149D7BB300A752C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7DF27B149D7BB300A752C4 /* InfoPlist.strings in Resources */,
+				EB7DF282149D7BB300A752C4 /* MainMenu.xib in Resources */,
+				EB7DF285149D7BB300A752C4 /* rb_main.rb in Resources */,
+				EB7DF287149D7BB300A752C4 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB7DF269149D7BB300A752C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7DF27D149D7BB300A752C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB7DF279149D7BB300A752C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7DF27A149D7BB300A752C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB7DF280149D7BB300A752C4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7DF281149D7BB300A752C4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB7DF288149D7BB300A752C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB7DF289149D7BB300A752C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB7DF28B149D7BB300A752C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallRubyFromObjC/CallRubyFromObjC-Prefix.pch";
+				INFOPLIST_FILE = "CallRubyFromObjC/CallRubyFromObjC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB7DF28C149D7BB300A752C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CallRubyFromObjC/CallRubyFromObjC-Prefix.pch";
+				INFOPLIST_FILE = "CallRubyFromObjC/CallRubyFromObjC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB7DF28E149D7BB300A752C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		EB7DF28F149D7BB300A752C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB7DF267149D7BB300A752C4 /* Build configuration list for PBXProject "CallRubyFromObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7DF288149D7BB300A752C4 /* Debug */,
+				EB7DF289149D7BB300A752C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7DF28A149D7BB300A752C4 /* Build configuration list for PBXNativeTarget "CallRubyFromObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7DF28B149D7BB300A752C4 /* Debug */,
+				EB7DF28C149D7BB300A752C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB7DF28D149D7BB300A752C4 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7DF28E149D7BB300A752C4 /* Debug */,
+				EB7DF28F149D7BB300A752C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB7DF264149D7BB300A752C4 /* Project object */;
+}
