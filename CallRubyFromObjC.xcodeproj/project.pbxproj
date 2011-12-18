@@ -14,19 +14,24 @@
 		EB7DF282149D7BB300A752C4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB7DF280149D7BB300A752C4 /* MainMenu.xib */; };
 		EB7DF285149D7BB300A752C4 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = EB7DF284149D7BB300A752C4 /* rb_main.rb */; };
 		EB7DF287149D7BB300A752C4 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = EB7DF286149D7BB300A752C4 /* AppDelegate.rb */; };
+		EB7DF291149D7BF400A752C4 /* Foo.rb in Resources */ = {isa = PBXBuildFile; fileRef = EB7DF290149D7BF400A752C4 /* Foo.rb */; };
+		EB7DF294149D7C5700A752C4 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7DF293149D7C5700A752C4 /* Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB7DF26D149D7BB300A752C4 /* CallRubyFromObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallRubyFromObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7DF271149D7BB300A752C4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		EB7DF273149D7BB300A752C4 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		EB7DF278149D7BB300A752C4 /* CallRubyFromObjC-Info.plist */ = {isa = PBXFileReference; path = "CallRubyFromObjC-Info.plist"; sourceTree = "<group>"; };
+		EB7DF278149D7BB300A752C4 /* CallRubyFromObjC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CallRubyFromObjC-Info.plist"; sourceTree = "<group>"; };
 		EB7DF27A149D7BB300A752C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB7DF27C149D7BB300A752C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EB7DF27E149D7BB300A752C4 /* CallRubyFromObjC-Prefix.pch */ = {isa = PBXFileReference; path = "CallRubyFromObjC-Prefix.pch"; sourceTree = "<group>"; };
+		EB7DF27E149D7BB300A752C4 /* CallRubyFromObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CallRubyFromObjC-Prefix.pch"; sourceTree = "<group>"; };
 		EB7DF281149D7BB300A752C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EB7DF284149D7BB300A752C4 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		EB7DF286149D7BB300A752C4 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		EB7DF290149D7BF400A752C4 /* Foo.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Foo.rb; sourceTree = "<group>"; };
+		EB7DF292149D7C5700A752C4 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		EB7DF293149D7C5700A752C4 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +76,10 @@
 		EB7DF276149D7BB300A752C4 /* CallRubyFromObjC */ = {
 			isa = PBXGroup;
 			children = (
+				EB7DF290149D7BF400A752C4 /* Foo.rb */,
 				EB7DF286149D7BB300A752C4 /* AppDelegate.rb */,
+				EB7DF292149D7C5700A752C4 /* Controller.h */,
+				EB7DF293149D7C5700A752C4 /* Controller.m */,
 				EB7DF27F149D7BB300A752C4 /* Resources */,
 				EB7DF283149D7BB300A752C4 /* Other Sources */,
 				EB7DF277149D7BB300A752C4 /* Supporting Files */,
@@ -177,6 +185,7 @@
 				EB7DF282149D7BB300A752C4 /* MainMenu.xib in Resources */,
 				EB7DF285149D7BB300A752C4 /* rb_main.rb in Resources */,
 				EB7DF287149D7BB300A752C4 /* AppDelegate.rb in Resources */,
+				EB7DF291149D7BF400A752C4 /* Foo.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB7DF27D149D7BB300A752C4 /* main.m in Sources */,
+				EB7DF294149D7C5700A752C4 /* Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
